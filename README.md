@@ -11,7 +11,7 @@ The data is from [Ventusky](https://www.ventusky.com/)
 ## Usage
 
 ### Load Skin
-Put `Ventusky_with_baiduIcon` in the your themes folder. <br/>
+Put `Ventusky_with_baiduIcon` in your themes folder. <br/>
 
 Refresh the Rainmeter themes. Use `Ventusky_with_baiduIcon\webweather_ventusky_4_day.ini` to load the skin.
 
