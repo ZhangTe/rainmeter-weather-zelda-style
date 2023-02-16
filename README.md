@@ -32,4 +32,4 @@ Change the `{location}` part to your city, like `new-york`:
 Url=https://www.ventusky.com/zh/new-york
 ```
 
-Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name is restored on the website.
+Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name is stored on the website.
