@@ -19,17 +19,23 @@ Refresh the Rainmeter themes. Use `Ventusky_with_baiduIcon\webweather_ventusky_4
 
 Open `webweather_ventusky_4_day.ini` file, find the part
 ```ini
-[MeasureSite]
-Measure=WebParser
-UpdateRate=3600;
+[Variables]
 ;{location} change to your location
-Url=https://www.ventusky.com/zh/{location}
-RegExp=#Reg_Exp#
+Url_weather=https://www.ventusky.com/{location}
 ```
 Change the `{location}` part to your city, like `new-york`:
 
 ```ini
-Url=https://www.ventusky.com/zh/new-york
+Url=https://www.ventusky.com/new-york
+```
+
+Some city name may need altitude and latitude (or other arguments) because of the Duplicate name like Peterborough in England and Canada:
+
+```ini
+; Peterborough in Canada
+https://www.ventusky.com/peterborough;44.3;-78.33
+; Peterborough in England
+https://www.ventusky.com/peterborough
 ```
 
 Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name is stored on the website.
