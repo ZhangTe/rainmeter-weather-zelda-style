@@ -1,73 +1,74 @@
 [English](README.md)| [中文](README_zh.md)
 
-# Weather Widget
-This weather widget with zelda BotW style is a set of [Rainmeter](https://docs.rainmeter.net/) skin. <br/>
+# 天气小皮肤
+仿照塞尔达荒野之息的天气显示方法制作的[Rainmeter](https://docs.rainmeter.net/) 天气预报小工具。 <br/>
 
 ![Thumbnail](Asset/screenshot1.png)
 <br/>
 
-The weather icons show the current weather and forecast for next 3 days.<br/>
+能显示当前天气和未来三天的预报。<br/>
 
-The data is from [Ventusky](https://www.ventusky.com/)
+预报数据来自 [Ventusky](https://www.ventusky.com/)
 
-## Usage
+## 使用方法
 
-**This skin needs Internet connection.**
+**本工具需要联网使用。**
 
-### Load Skin
-Put `Ventusky_with_baiduIcon` in your themes folder. <br/>
+### 加载皮肤
+把 `Ventusky_with_baiduIcon` 放到你的皮肤文件夹。 <br/>
 
-Refresh the Rainmeter themes. Use `Ventusky_with_baiduIcon\webweather_ventusky_4_day.ini` to load the skin.
+Rainmeter刷新所有皮肤，找到`Ventusky_with_baiduIcon\webweather_ventusky_4_day.ini`加载。
 
-### Choose location
+### 选择城市位置
 
-Open `webweather_ventusky_4_day.ini` file, find the section
+打开配置文件`webweather_ventusky_4_day.ini`, 找到这一段：
 ```ini
 [Variables]
 ;{location} change to your location
 Url_weather=https://www.ventusky.com/{location}
 ```
-Change the `{location}` part to your city, like `new-york`:
+
+把`{location}`改成你的城市位置，比如 `new-york`：
 
 ```ini
 Url_weather=https://www.ventusky.com/new-york
 ```
 
-Some city name may need longtitude and latitude (or other arguments) because of the Duplicate name like Peterborough in England and Canada:
-
+某些城市由于重名问题，网站存储的时候附加了信息（比如经纬度），这些信息也要写道Url中。<br/>
+比如加拿大和英国的Peterborough表示方法不同：
 ```ini
 ; Peterborough in Canada
 Url_weather=https://www.ventusky.com/peterborough;44.3;-78.33
 ; Peterborough in England
 Url_weather=https://www.ventusky.com/peterborough
 ```
-Use coordinates(longtitude and latitude) directly:
+有些城市网站并未收录，但是有气象信息，可以直接使用经纬度：
 
 ```ini
 ; somewhere in Alaska
 Url_weather=https://www.ventusky.com/62.283;-155.028
 ```
 
-Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name or data is stored on the website.
-## Weather
+到 [Ventusky](https://www.ventusky.com/) 查看具体如何填写。找到你的城市位置，点击地图，再查看地址栏上需要的部分。
+## 天气信息
 
-### Legends
+### 图例
 
-| Legends | | | |
+| 图标和表示 | | | |
 |-|-|-|-|
 |![icons](Ventusky_with_BaiduIcon/1.png)|![icons](Ventusky_with_BaiduIcon/2.png)|![icons](Ventusky_with_BaiduIcon/4.png)|![icons](Ventusky_with_BaiduIcon/6.png)|
-|Sunny|Little Cloudy|Cloudy|Fog|
+|晴|多云|阴|雾|
 |![icons](Ventusky_with_BaiduIcon/10.png)|![icons](Ventusky_with_BaiduIcon/11.png)|![icons](Ventusky_with_BaiduIcon/12.png)|![icons](Ventusky_with_BaiduIcon/13.png)|
-|Cloudy & Rain|Middle Rain|Heavy Rain|Lightning rain|
+|阴有小雨|中雨|大雨|雷阵雨|
 | |![icons](Ventusky_with_BaiduIcon/15.png)|![icons](Ventusky_with_BaiduIcon/17.png)|![icons](Ventusky_with_BaiduIcon/18.png)|
-| |Sleet|Snow|Hail|
+| |雨夹雪|雪|冰雹|
 |![icons](Ventusky_with_BaiduIcon/19.png)|![icons](Ventusky_with_BaiduIcon/20.png)|![icons](Ventusky_with_BaiduIcon/24.png)|![icons](Ventusky_with_BaiduIcon/25.png)|
-|Lightning|Drizzle|High-rise wind|Little Rain|
+|雷|细雨|高空风|小雨|
 
 
-## The Termometer
+## 温度计
 
-### Thermometer scale
+### 刻度
 
 
 
@@ -77,9 +78,9 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 
 <br/>
 
-### Thermometer not working
+### 温度计不工作解决方法
 
-If the Thermometer always lays on 0, try to change the other regular expression here:
+如果温度计一直指向0，可以尝试找到下面配置段落，用第二的正则表达式匹配（Reg_Exp_tmp），用分号`;`注释第一个，把第二个分号去掉。
 
 ```ini
 [Variables]
@@ -93,13 +94,13 @@ Reg_Exp_tmp=(?s)<td\s+class="temperature">\s+((\-)?\d+(\.\d+)?)
 
 ```
 
-This is because some of the cities don't have actual information panel.
-The second regular expression can also be used when you want to use coordinates(longtitude and latitude) directly.
+导致这种情况的原因可能是网站对于此城市没有“当前信息”面板，所以读取不到这项内容。
+有一些城市会有此问题，另外直接使用坐标也需要修改此项，否则没有温度信息。
 
 
-# Donation
-Wish you enjoy this work. 
-It will be a greet help when you can make a donation:<br/>
+# 捐赠
+如果您喜欢我的作品， 
+您的捐赠将是对其最大的认可：<br/>
 <a href='https://Ko-fi.com/ztbxxt'><img src="https://img.shields.io/badge/Donate-Ko_fi-442200.svg" /><img src="https://storage.ko-fi.com/cdn/kofi_stroke_cup.svg" alt="alt text" height="20" width="30" /></a>
 <a href='https://paypal.me/ztbxxt'><img src="https://img.shields.io/badge/Donate-PayPal-2275FF.svg" /><img src="https://www.paypalobjects.com/webstatic/icon/pp32.png" alt="alt text" height="20" width="20" /></a>
 <a href='https://afdian.net/@ztbxxt'><img src="https://img.shields.io/badge/Donate-爱发电-6900CF.svg"/><img src="https://afdian.net/static/img/logo/logo.png" height="20"  width="20" /></a>
