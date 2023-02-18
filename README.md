@@ -46,6 +46,8 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 
 
 <br/>
-![Thumbnail](https://github.com/ZhangTe/rainmeter-weather-zelda-style/blob/main/Asset/Thermometer_scale.png)
+
+![thermoscale](https://github.com/ZhangTe/rainmeter-weather-zelda-style/blob/main/Asset/Thermometer_scale.png)
+
 <br/>
 
