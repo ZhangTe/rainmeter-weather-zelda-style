@@ -10,14 +10,16 @@ The data is from [Ventusky](https://www.ventusky.com/)
 
 ## Usage
 
+**This skin needs Internet connection.**
+
 ### Load Skin
 Put `Ventusky_with_baiduIcon` in your themes folder. <br/>
 
 Refresh the Rainmeter themes. Use `Ventusky_with_baiduIcon\webweather_ventusky_4_day.ini` to load the skin.
 
-### Change the location
+### Choose location
 
-Open `webweather_ventusky_4_day.ini` file, find the part
+Open `webweather_ventusky_4_day.ini` file, find the section
 ```ini
 [Variables]
 ;{location} change to your location
@@ -73,7 +75,7 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 
 <br/>
 
-### Thermometer not moving
+### Thermometer not working
 
 If the Thermometer always lays on 0, try to change the other regular expression here:
 
