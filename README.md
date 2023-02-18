@@ -55,8 +55,8 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 |Sunny|Little Cloudy|Cloudy|Fog|
 |![icons](Ventusky_with_BaiduIcon/10.png)|![icons](Ventusky_with_BaiduIcon/11.png)|![icons](Ventusky_with_BaiduIcon/12.png)|![icons](Ventusky_with_BaiduIcon/13.png)|
 |Cloudy & Rain|Middle Rain|Heavy Rain|Lightning rain|
-|![icons](Ventusky_with_BaiduIcon/14.png)|![icons](Ventusky_with_BaiduIcon/15.png)|![icons](Ventusky_with_BaiduIcon/17.png)|![icons](Ventusky_with_BaiduIcon/18.png)|
-|Cloudy Snow|Sleet|Snow|Hail|
+| |![icons](Ventusky_with_BaiduIcon/15.png)|![icons](Ventusky_with_BaiduIcon/17.png)|![icons](Ventusky_with_BaiduIcon/18.png)|
+| |Sleet|Snow|Hail|
 |![icons](Ventusky_with_BaiduIcon/19.png)|![icons](Ventusky_with_BaiduIcon/20.png)|![icons](Ventusky_with_BaiduIcon/24.png)|![icons](Ventusky_with_BaiduIcon/25.png)|
 |Lightning|Drizzle|High-rise wind|Little Rain|
 
