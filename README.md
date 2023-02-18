@@ -26,10 +26,10 @@ Url_weather=https://www.ventusky.com/{location}
 Change the `{location}` part to your city, like `new-york`:
 
 ```ini
-Url=https://www.ventusky.com/new-york
+Url_weather=https://www.ventusky.com/new-york
 ```
 
-Some city name may need altitude and latitude (or other arguments) because of the Duplicate name like Peterborough in England and Canada:
+Some city name may need longtitude and latitude (or other arguments) because of the Duplicate name like Peterborough in England and Canada:
 
 ```ini
 ; Peterborough in Canada
@@ -37,11 +37,18 @@ https://www.ventusky.com/peterborough;44.3;-78.33
 ; Peterborough in England
 https://www.ventusky.com/peterborough
 ```
+Use coordinates(longtitude and latitude) directly:
 
-Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name is stored on the website.
+```ini
+; somewhere in Alaska
+Url_weather=https://www.ventusky.com/62.283;-155.028
+```
 
+Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name or data is stored on the website.
 
-## Thermometer scale
+## The Termometer
+
+### Thermometer scale
 
 
 
@@ -50,4 +57,24 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 ![thermoscale](https://github.com/ZhangTe/rainmeter-weather-zelda-style/blob/main/Asset/Thermometer_scale.png)
 
 <br/>
+
+### Thermometer not moving
+
+If the Thermometer always lays on 0, try to change the other regular expression here:
+
+```ini
+[Variables]
+
+ ....
+ 
+;Thermometer not moving?
+;If the temperature information cannot loaded, try the other regular expression
+Reg_Exp_tmp=(?s)<td\s+class="temperature">\s+((\-)?\d+(\.\d+)?)
+;Reg_Exp_tmp=(?s)<b\s+class="teplota">\s*((\-)?\d+(\.\d+)?)
+
+```
+
+This is because some of the cities don't have actual information panel.
+The second regular expression can also be used when you want to use coordinates(longtitude and latitude) directly.
+
 
