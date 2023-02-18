@@ -39,3 +39,13 @@ https://www.ventusky.com/peterborough
 ```
 
 Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name is stored on the website.
+
+
+## Thermometer scale
+
+
+
+<br/>
+![Thumbnail](https://github.com/ZhangTe/rainmeter-weather-zelda-style/blob/main/Asset/Thermometer_scale.png)
+<br/>
+
