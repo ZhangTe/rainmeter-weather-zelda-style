@@ -1,7 +1,7 @@
 # Weather Widget
 This weather widget with zelda BotW style is a set of [Rainmeter](https://docs.rainmeter.net/) skin. <br/>
 
-![Thumbnail](https://github.com/ZhangTe/rainmeter-weather-zelda-style/blob/main/Asset/screenshot1.png)
+![Thumbnail](Asset/screenshot1.png)
 <br/>
 
 The weather icons show the current weather and forecast for next 3 days.<br/>
@@ -45,6 +45,21 @@ Url_weather=https://www.ventusky.com/62.283;-155.028
 ```
 
 Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click it, you can check the web-url if you don't know exactly how your city name or data is stored on the website.
+## Weather
+
+### Legends
+
+| Legends | | | |
+|-|-|-|-|
+|![icons](Ventusky_with_BaiduIcon/1.png)|![icons](Ventusky_with_BaiduIcon/2.png)|![icons](Ventusky_with_BaiduIcon/4.png)|![icons](Ventusky_with_BaiduIcon/6.png)|
+|Sunny|Little Cloudy|Cloudy|Fog|
+|![icons](Ventusky_with_BaiduIcon/10.png)|![icons](Ventusky_with_BaiduIcon/11.png)|![icons](Ventusky_with_BaiduIcon/12.png)|![icons](Ventusky_with_BaiduIcon/13.png)|
+|Cloudy & Rain|Middle Rain|Heavy Rain|Lightning rain|
+|![icons](Ventusky_with_BaiduIcon/14.png)|![icons](Ventusky_with_BaiduIcon/15.png)|![icons](Ventusky_with_BaiduIcon/17.png)|![icons](Ventusky_with_BaiduIcon/18.png)|
+|Cloudy Snow|Sleet|Snow|Hail|
+|![icons](Ventusky_with_BaiduIcon/19.png)|![icons](Ventusky_with_BaiduIcon/20.png)|![icons](Ventusky_with_BaiduIcon/24.png)|![icons](Ventusky_with_BaiduIcon/25.png)|
+|Lightning|Drizzle|High-rise wind|Little Rain|
+
 
 ## The Termometer
 
@@ -54,7 +69,7 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 
 <br/>
 
-![thermoscale](https://github.com/ZhangTe/rainmeter-weather-zelda-style/blob/main/Asset/Thermometer_scale.png)
+![thermoscale](Asset/Thermometer_scale.png)
 
 <br/>
 
