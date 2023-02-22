@@ -63,7 +63,7 @@ Url_weather=https://www.ventusky.com/62.283;-155.028
 | |![icons](Ventusky_with_BaiduIcon/15.png)|![icons](Ventusky_with_BaiduIcon/17.png)|![icons](Ventusky_with_BaiduIcon/18.png)|
 | |雨夹雪|雪|冰雹|
 |![icons](Ventusky_with_BaiduIcon/19.png)|![icons](Ventusky_with_BaiduIcon/20.png)|![icons](Ventusky_with_BaiduIcon/24.png)|![icons](Ventusky_with_BaiduIcon/25.png)|
-|雷|细雨|高空风|小雨|
+|雷|细雨|卷云|小雨|
 
 
 ## 温度计
