@@ -62,7 +62,7 @@ Visit [Ventusky](https://www.ventusky.com/) and find your city on map then click
 | |![icons](Ventusky_with_BaiduIcon/15.png)|![icons](Ventusky_with_BaiduIcon/17.png)|![icons](Ventusky_with_BaiduIcon/18.png)|
 | |Sleet|Snow|Hail|
 |![icons](Ventusky_with_BaiduIcon/19.png)|![icons](Ventusky_with_BaiduIcon/20.png)|![icons](Ventusky_with_BaiduIcon/24.png)|![icons](Ventusky_with_BaiduIcon/25.png)|
-|Lightning|Drizzle|Cirrus|Little Rain|
+|Lightning|Drizzle|Cirrus Cloud|Little Rain|
 
 
 ## The Termometer
